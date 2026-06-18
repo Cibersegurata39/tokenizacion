@@ -1,2 +1,3 @@
 # tokenizacion
-Tokenización en los LLM y como se puede utilizar para vulnerar las IAs.
+A modo introductorio es interesante comentar cual es la artquitectura de un sistema LLM (large language model) moderno.
+Ajeno al sistema está el usuario que realiza una consulta a la aplicación. El **orquestador** gestiona la lógica y el contexto, mientras que el **RAG** (*retrieval augmented generation*) busca la información relevante en fuentes externas. La información está almacenada en vectores llamados **Vector stores**, los cuales contienen documentos y *embeddings*. Estos son un medio para representar objetos como texto, imágenes y audio como puntos en un espacio vectorial continuo donde las ubicaciones de esos puntos en el espacio son semánticamente significativas para los algoritmos de *machine learning* (ML). 
