@@ -5,6 +5,7 @@ Ajeno al sistema está el usuario que realiza una consulta a la aplicación. El 
 
 <img width="1117" height="728" alt="Captura de pantalla 2026-06-16 185206" src="https://github.com/user-attachments/assets/dd656e2a-a842-48fc-8aa2-eacb5f55b654" />
 
+## Superfície de ataque
 La superfície de ataque la componen distintos métodos:
 **Prompt injection**: Manipulación de instrucciones para alterar el comportamiento del modelo.
 **RAG manipulation**: Manipulación de las fuentes para obtener información no autorizada.
@@ -13,6 +14,7 @@ La superfície de ataque la componen distintos métodos:
 
 <img width="1116" height="660" alt="Captura de pantalla 2026-06-16 185239" src="https://github.com/user-attachments/assets/aed83102-515a-4c35-981f-8b05baec45ca" />
 
+## Tokens
 Después de esta breve introducción, profundicemos en los **Tokens**. Los modelos de lenguaje no procesan texto como lo hacemos los humanos; lo convierten en unidades denominadas *tokens*, aproximadamente 3/4 partes de palabra. Comprender este proceso es fundamental para entender múltiples técnicas de ataque, como son las siguientes.
 
 Token smuggling: Se utilizan espacios, tabulaciones, letras mayúsculas... todo para ocultar instrucciones maliciosas y evadir filtros basados en patrones.
